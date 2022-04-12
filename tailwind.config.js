@@ -31,6 +31,12 @@ module.exports = {
                     500: '#F4694C',
                     600: '#ee5c3e',
                 }
+            },
+            spacing: {
+                '4.5': '1.125rem'
+            },
+            boxShadow: {
+                lg: '0px 5px 14px rgba(244, 105, 76, 0.25)'
             }
         },
     },
