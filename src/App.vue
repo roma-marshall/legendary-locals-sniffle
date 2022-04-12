@@ -8,7 +8,7 @@ import Logo from './assets/img/logo.svg'
     <div class="w-1/2 bg-cover">
       <div class="w-1/2">
         <div class="flex flex-col px-24 pt-10">
-          <Logo class="w-32" />
+          <Logo />
         </div>
       </div>
     </div>
