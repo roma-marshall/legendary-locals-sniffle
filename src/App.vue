@@ -17,6 +17,11 @@ import Logo from './assets/img/logo.svg'
               Login below via username & password
             </span>
           </div>
+          <div class="flex justify-between items-center pt-6">
+            <hr class="w-full border-gray-400" />
+            <span class="px-4 font-light tracking-wider text-gray-500">*</span>
+            <hr class="w-full border-gray-400" />
+          </div>
         </div>
       </div>
     </div>
