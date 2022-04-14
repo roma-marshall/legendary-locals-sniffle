@@ -27,30 +27,30 @@ import Password from './assets/img/password.svg'
           <form action="">
             <div class="pt-6">
               <label for="email" class="font-light">email</label>
-              <div class="flex items-center mt-2 w-full rounded-lg border-gray-400">
-                <div>
+              <div class="flex items-center mt-2 w-full rounded-lg border border-gray-400">
+                <div class="flex justify-center items-center pl-6">
                   <Mail class="w-6 h-6 pointer-events-none"/>
                 </div>
                 <input
                     type="text"
                     name="email"
                     id="email"
-                    value="no@mail.su"
+                    placeholder="no@mail.su"
                     class="px-4 py-4.5 w-full focus:outline-none font-light border-0 focus:ring-0"
                 />
               </div>
             </div>
             <div class="pt-6">
               <label for="email" class="font-light">password</label>
-              <div class="flex items-center mt-2 w-full rounded-lg border-gray-400">
-                <div>
+              <div class="flex items-center mt-2 w-full rounded-lg border border-gray-400">
+                <div class="flex justify-center items-center pl-6">
                   <Password class="w-6 h-6 pointer-events-none"/>
                 </div>
                 <input
                     type="password"
                     name="password"
                     id="password"
-                    value="no@mail.su"
+                    placeholder="*********"
                     class="px-4 py-4.5 w-full focus:outline-none font-light border-0 focus:ring-0"
                 />
               </div>
