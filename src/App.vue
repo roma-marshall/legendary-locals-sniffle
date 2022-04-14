@@ -35,7 +35,7 @@ import Password from './assets/img/password.svg'
                     type="text"
                     name="email"
                     id="email"
-                    placeholder="no@mail.su"
+                    value="no@mail.su"
                     class="px-4 py-4.5 w-full focus:outline-none font-light border-0 focus:ring-0"
                 />
               </div>
