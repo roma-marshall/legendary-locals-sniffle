@@ -57,7 +57,7 @@ import Password from './assets/img/password.svg'
             </div>
             <div class="flex justify-between items-center pt-4">
               <div>
-                <input type="checkbox"/>
+                <input type="checkbox" name="remember" id="remember"/>
                 <label for="remember">Remember me</label>
               </div>
             </div>
