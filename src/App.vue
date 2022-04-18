@@ -60,7 +60,7 @@ import Password from './assets/img/password.svg'
                 <input type="checkbox" name="remember" id="remember"/>
                 <label class="pl-4 font-light text-gray-900" for="remember">Remember me</label>
               </div>
-              <a href="#" class="text-teal-500">Forgot password</a>
+              <a href="#" class="text-teal-500 hover:text-teal-600">Forgot password</a>
             </div>
           </form>
         </div>
