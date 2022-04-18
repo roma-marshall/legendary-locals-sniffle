@@ -61,9 +61,11 @@ import Password from './assets/img/password.svg'
                     type="checkbox"
                     name="remember"
                     id="remember"
-                    class="w-5 h-5 rounded bg-white text-orange-500 border border-gray-400 focus:outline-none focus:ring-orange-500"
+                    class="w-5 h-5 accent-orange-500 bg-white rounded border border-gray-400 focus:outline-none focus:ring-orange-500"
                 />
-                <label class="pl-4 font-light text-gray-900" for="remember">Remember me</label>
+                <label for="remember" class="pl-4 font-light text-gray-900">
+                  Remember me
+                </label>
               </div>
               <a href="#" class="text-teal-500 hover:text-teal-600">Forgot password</a>
             </div>
