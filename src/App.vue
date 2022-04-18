@@ -71,6 +71,9 @@ import Password from './assets/img/password.svg'
                 Forgot password
               </a>
             </div>
+            <div class="pt-8">
+              <button type="submit">Sign in</button>
+            </div>
           </form>
         </div>
       </div>
