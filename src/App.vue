@@ -67,7 +67,9 @@ import Password from './assets/img/password.svg'
                   Remember me
                 </label>
               </div>
-              <a href="#" class="text-teal-500 hover:text-teal-600">Forgot password</a>
+              <a href="#" class="text-teal-500 hover:text-teal-600">
+                Forgot password
+              </a>
             </div>
           </form>
         </div>
