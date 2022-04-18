@@ -57,7 +57,7 @@ import Password from './assets/img/password.svg'
             </div>
             <div class="flex justify-between items-center pt-4">
               <div class="flex items-center">
-                <input type="checkbox" name="remember" id="remember"/>
+                <input class="w-5 h-5 rounded" type="checkbox" name="remember" id="remember"/>
                 <label class="pl-4 font-light text-gray-900" for="remember">Remember me</label>
               </div>
               <a href="#" class="text-teal-500 hover:text-teal-600">Forgot password</a>
