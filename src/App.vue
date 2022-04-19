@@ -72,7 +72,7 @@ import Password from './assets/img/password.svg'
               </a>
             </div>
             <div class="pt-8">
-              <button type="submit">Sign in</button>
+              <button type="submit" class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg">Sign in</button>
             </div>
           </form>
         </div>
