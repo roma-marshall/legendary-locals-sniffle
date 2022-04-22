@@ -75,7 +75,7 @@ import Password from './assets/img/password.svg'
               <button type="submit" class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg">Sign in</button>
             </div>
           </form>
-          <div>
+          <div class="pt-4">
             <div class="font-light text-center text-gray-500">
               Not registered yet?
               <a href="#">Create an Account</a>
