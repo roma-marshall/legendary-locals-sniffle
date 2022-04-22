@@ -78,7 +78,9 @@ import Password from './assets/img/password.svg'
           <div class="pt-4">
             <div class="font-light text-center text-gray-500">
               Not registered yet?
-              <a href="#" class="font-normal text-teal-500 hover:text-teal-600">Create an Account</a>
+              <a href="#" class="font-normal text-teal-500 hover:text-teal-600">
+                Create an Account
+              </a>
             </div>
           </div>
         </div>
