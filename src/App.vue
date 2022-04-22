@@ -1,10 +1,3 @@
-<script setup>
-import Logo from './assets/img/logo.svg'
-import Mail from './assets/img/mail.svg'
-import Password from './assets/img/password.svg'
-
-</script>
-
 <template>
   <div class="flex justify-between min-h-screen font-sans">
     <div class="w-1/2 bg-cover">
@@ -72,7 +65,8 @@ import Password from './assets/img/password.svg'
               </a>
             </div>
             <div class="pt-8">
-              <button type="submit" class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg">Sign in</button>
+              <button type="submit" class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg">Sign in
+              </button>
             </div>
           </form>
           <div class="pt-4">
@@ -83,7 +77,7 @@ import Password from './assets/img/password.svg'
               </a>
             </div>
             <div>
-              <span>© All rights reserved.</span>
+              <span>© {{ currentDate() }} All rights reserved.</span>
             </div>
           </div>
         </div>
@@ -91,6 +85,37 @@ import Password from './assets/img/password.svg'
     </div>
   </div>
 </template>
+
+<script>
+import Logo from './assets/img/logo.svg'
+import Mail from './assets/img/mail.svg'
+import Password from './assets/img/password.svg'
+
+export default {
+  name: 'App',
+  components: {
+    Logo,
+    Mail,
+    Password
+  },
+  setup() {
+
+
+    return {
+      Logo,
+      Mail,
+      Password
+    }
+  },
+  methods: {
+    currentDate() {
+      const current = new Date();
+      const date = `${current.getFullYear()}`;
+      return date;
+    }
+  }
+};
+</script>
 
 <style scoped>
 
