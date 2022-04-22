@@ -82,6 +82,9 @@ import Password from './assets/img/password.svg'
                 Create an Account
               </a>
             </div>
+            <div>
+              <span>© All rights reserved.</span>
+            </div>
           </div>
         </div>
       </div>
