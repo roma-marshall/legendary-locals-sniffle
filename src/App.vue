@@ -76,7 +76,7 @@
                 Create an Account
               </a>
             </div>
-            <div>
+            <div class="text-center text-gray-700 p-4">
               <span>© {{ currentDate() }} All rights reserved.</span>
             </div>
           </div>
