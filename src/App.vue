@@ -76,8 +76,12 @@
                 Create an Account
               </a>
             </div>
-            <div class="text-center text-gray-700 p-4">
+            <div class="flex justify-between items-center text-gray-500 pt-14">
               <span>© {{ currentDate() }} All rights reserved.</span>
+              <span class="flex items-center space-x-1">
+                <a href="#">Terms of Service</a>
+                <span>&#183;</span>
+              </span>
             </div>
           </div>
         </div>
