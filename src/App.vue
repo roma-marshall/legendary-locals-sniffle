@@ -76,11 +76,12 @@
                 Create an Account
               </a>
             </div>
-            <div class="flex justify-between items-center text-gray-500 pt-14">
-              <span>© {{ currentDate() }} All rights reserved.</span>
+            <div class="flex justify-between items-center pt-14">
+              <span class="text-gray-500">© {{ currentDate() }} All rights reserved.</span>
               <span class="flex items-center space-x-1">
-                <a href="#">Terms of Service</a>
-                <span>&#183;</span>
+                <a href="#" class="hover:text-gray-600 text-gray-500">Terms of Service</a>
+                <span class="text-gray-500">&#183;</span>
+                <a href="#" class="hover:text-gray-600 text-gray-500">Privacy Policy</a>
               </span>
             </div>
           </div>
