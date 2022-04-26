@@ -6,9 +6,9 @@
           <Logo/>
           <div class="pt-20 pb-6">
             <h1 class="text-3xl font-bold tracking-wide leading-loose">
-              hello @username
+              Hey, Welcome back!
             </h1>
-            <span>
+            <span class="text-gray-500">
               Login below via username & password
             </span>
           </div>
