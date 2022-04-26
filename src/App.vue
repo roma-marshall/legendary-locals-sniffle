@@ -65,7 +65,11 @@
               </a>
             </div>
             <div class="pt-8">
-              <button type="submit" class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg">Sign in
+              <button
+                  type="submit"
+                  class="py-4 px-8 w-full text-white bg-orange-500 rounded-lg shadow-lg hover:bg-orange-600 focus-ring-4 focus:ring-red-100 focus:outline-none"
+              >
+                Sign in
               </button>
             </div>
           </form>
