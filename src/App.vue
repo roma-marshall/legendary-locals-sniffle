@@ -80,7 +80,7 @@
                 Create an Account
               </a>
             </div>
-            <div class="flex justify-between items-center pt-14">
+            <div class="flex justify-between items-center pt-14 pb-3">
               <span class="text-gray-500">© {{ currentDate() }} All rights reserved.</span>
               <span class="flex items-center space-x-1">
                 <a href="#" class="hover:text-gray-600 text-gray-500">Terms of Service</a>
