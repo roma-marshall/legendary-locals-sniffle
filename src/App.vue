@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between min-h-screen font-sans">
-    <div class="w-1/2 bg-cover">
+  <div class="text-center mx-40 justify-between min-h-screen font-sans">
+    <div class="w-2/2 bg-cover">
       <div class="w-2/2">
         <div class="flex flex-col px-24 pt-10">
           <Logo/>
@@ -20,7 +20,8 @@
           <form action="">
             <div class="pt-6">
               <label for="email" class="font-light">Email</label>
-              <div class="flex items-center mt-2 w-full rounded-lg border border-gray-400 transition-all focus-within:shadow-lg focus-within:border-orange-500">
+              <div
+                  class="flex items-center mt-2 w-full rounded-lg border border-gray-400 transition-all focus-within:shadow-lg focus-within:border-orange-500">
                 <div class="flex justify-center items-center pl-6">
                   <Mail class="w-6 h-6 pointer-events-none"/>
                 </div>
@@ -35,7 +36,8 @@
             </div>
             <div class="pt-6">
               <label for="email" class="font-light">Password</label>
-              <div class="flex items-center mt-2 w-full rounded-lg border border-gray-400 transition-all focus-within:shadow-lg focus-within:border-orange-500">
+              <div
+                  class="flex items-center mt-2 w-full rounded-lg border border-gray-400 transition-all focus-within:shadow-lg focus-within:border-orange-500">
                 <div class="flex justify-center items-center pl-6">
                   <Password class="w-6 h-6 pointer-events-none"/>
                 </div>
