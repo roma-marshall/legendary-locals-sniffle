@@ -110,8 +110,6 @@ export default {
     Password
   },
   setup() {
-
-
     return {
       Logo,
       Mail,
